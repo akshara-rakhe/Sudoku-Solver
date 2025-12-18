@@ -60,7 +60,7 @@ def print_board(board):
 
 def main() :
     
-    board = [
+    board = [                                               #Add the input sudoku
     [5, 3, 0, 0, 7, 0, 0, 0, 0],
     [6, 0, 0, 1, 9, 5, 0, 0, 0],
     [0, 9, 8, 0, 0, 0, 0, 6, 0],
@@ -81,4 +81,5 @@ def main() :
     print_board(board)    
 
 if __name__ == "__main__":
+
     main()
